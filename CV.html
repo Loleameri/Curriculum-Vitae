@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Curriculum Vitae</title>
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4185/4185707.png">
+  <link rel="stylesheet" href="CSS.css">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>LORENZO</h1>
+      <img src="imagenes/fotoperfil.jpg" alt="Foto de perfil">
+      <h1>AMERI</h1>
+    </div>
+  </header>
+  <section>
+    <div class="icons-container">
+      <div type="button" style="cursor: pointer" data-toggle="modal" data-target="#fechaModal"><img src="https://cdn-icons-png.flaticon.com/512/6697/6697479.png" alt="Fecha de nacimiento">
+      </div>  
+      <div type="button" style="cursor: pointer" data-toggle="modal" data-target="#correoModal"><img src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png" alt="Correo electrónico">
+      </div>
+      <div type="button" style="cursor: pointer" data-toggle="modal" data-target="#celularModal"><img src="https://cdn-icons-png.flaticon.com/512/8280/8280505.png" alt="Celular">
+      </div>
+      <div type="button" style="cursor: pointer" data-toggle="modal" data-target="#direccionModal"><img src="https://cdn-icons-png.flaticon.com/512/181/181508.png" alt="Dirección">
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="column">
+        <h2>Estudios</h2>
+          <h3>Lisenciado en Diseño Multimedial</h3>
+            <p>Instituto de Educacion Terciaria <b>IDES</b></p>
+            <p>Egresaso en 2020</p>
+      </div>
+      <div class="column">
+        <h2>Trabajos</h2>
+          <ul>
+            <li><h3>Marqueria del Valle</h3></li>
+              <p>Trabajo de armado de cuadros artesanal (empleado)</p>
+               <p>Del 2005 al 2011</p>
+            <li><h3>Estampado de remeras</h3></li>
+              <p>Trabajo en diseño y armado de prendas (propietario)</p>
+               <p>Del 2012 al 2016</p>
+            <li><h3>Tecnico en comunicaciones</h3></li>
+              <p>Hago de todo (empleado)</p>
+               <p>Del 2016 hasta la actualidad</p>
+          </ul>
+      </div>
+      <div class="column">
+        <h2>Habilidades</h2>
+          <ul>
+            <li>Habilidades para resolver problemas</li>
+            <li>Trabajo en equipo</li>
+            <li>Pensamiento analítico</li>
+            <li>Confianza</li>
+            <li>Adaptabilidad</li>
+            <li>Paciente</li>
+            <li>Creativo</li>
+          </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Modal -->
+  <div class="modal fade" id="fechaModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Fecha de Nacimiento</h4>
+        </div>
+        <div class="modal-body">
+          <p>Nacido el 17 de Junio de 1982</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+     </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="correoModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Correo electronico</h4>
+        </div>
+        <div class="modal-body">
+          <p>lorenzoameri82@gmail.com</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+     </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="celularModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Celular</h4>
+        </div>
+        <div class="modal-body">
+          <p>98764313215</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+     </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="direccionModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Dirección</h4>
+        </div>
+        <div class="modal-body">
+          <p>Patagonia 132</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+     </div>
+  </div>
+</body>
+</html>
